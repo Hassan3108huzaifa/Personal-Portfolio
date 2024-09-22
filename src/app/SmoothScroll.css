@@ -1,0 +1,27 @@
+.smooth-scroll {
+    scroll-behavior: smooth;
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .smooth-scroll::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .smooth-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .smooth-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  .smooth-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* For Firefox */
+  .smooth-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
